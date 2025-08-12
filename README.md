@@ -66,7 +66,7 @@ G(s) = 1 / (s² + 2s + 5)
 
 Diagrama de blocos e resposta simulada (referência Simulink):
 
-![Diagrama Simulink](docs/simulink_diagram.png)
+![Diagrama Simulink](BD/01.png)
 ![Resposta ao degrau](docs/step_response.png)
 
 ---
