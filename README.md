@@ -4,7 +4,7 @@
 
 ---
 
-## 📖 Visão Geral
+## Visão Geral
 
 O **SimuBlock** é um aplicativo mobile pensado para estudantes, professores e profissionais que desejam simular **sistemas dinâmicos** de forma prática, acessível e visual. Inspirado na lógica de montagem do **Simulink**, mas otimizado para **uso em dispositivos móveis**, o app permite criar diagramas de blocos interconectados e visualizar a resposta do sistema a uma entrada do tipo **degrau**.
 
@@ -12,20 +12,12 @@ O projeto é voltado principalmente para aplicações **didáticas**, servindo c
 
 ---
 
-## 🎯 Objetivos
+## Objetivos
 
 * Criar uma ferramenta simples e funcional para simulação de sistemas de **1ª e 2ª ordem**.
 * Permitir montagem de diagramas de blocos com **componentes básicos** (ganho, integrador, somador, entrada e saída).
 * Simular e plotar a resposta ao degrau usando métodos numéricos.
 * Fornecer uma alternativa ao **Simulink** para situações onde o acesso a um PC não é viável.
-
----
-
-## 👥 Público-Alvo
-
-* Estudantes de **engenharia mecatrônica, elétrica, aeroespacial, controle e automação**.
-* Professores que desejam um recurso rápido para demonstrações em sala de aula.
-* Profissionais que precisam de uma ferramenta portátil para prototipagem de sistemas.
 
 ---
 
@@ -47,13 +39,6 @@ O projeto é voltado principalmente para aplicações **didáticas**, servindo c
 
 ---
 
-## 📚 Aplicações Acadêmicas
-
-* **Banco de Dados I** → Modelagem opcional para armazenar diagramas, parâmetros e resultados.
-* **Dispositivos Móveis** → Desenvolvimento de um app cross-platform para simulação.
-
----
-
 ## 🧩 Tecnologias Utilizadas
 
 * **Frontend:** Flutter ou WebApp (responsivo).
@@ -63,18 +48,7 @@ O projeto é voltado principalmente para aplicações **didáticas**, servindo c
 
 ---
 
-## 📏 Escopo Limitado
-
-Para manter a viabilidade no contexto acadêmico, o projeto se restringe a:
-
-* Blocos pré-definidos.
-* Entrada do tipo degrau.
-* Sistemas **SISO**.
-* Sem persistência obrigatória de dados (banco de dados opcional).
-
----
-
-## 📊 Exemplo de Sistema Modelado
+## Exemplo de Sistema Modelado
 
 Sistema massa-mola-amortecedor de **2ª ordem**:
 
@@ -97,7 +71,7 @@ Diagrama de blocos e resposta simulada (referência Simulink):
 
 ---
 
-## 🚀 Próximos Passos
+## Próximos Passos
 
 * Adicionar suporte para entradas personalizadas.
 * Implementar persistência local de projetos.
