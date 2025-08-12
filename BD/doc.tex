@@ -8,7 +8,6 @@
 \geometry{a4paper, margin=2.5cm}
 
 \title{SimuBlock -- Simulador Mobile de Sistemas por Blocos}
-\author{Jaysa Gabrielly - 22251392}
 \date{agosto de 2025}
 
 \begin{document}
@@ -83,9 +82,11 @@ Para manter o projeto viável como entrega de disciplinas introdutórias, o esco
     O app mobile é o foco principal, permitindo montar e simular sistemas dinâmicos simples diretamente no celular.
 \end{itemize}
 
+\newpage
+
 \section*{Exemplo no Simulink: Sistema Físico de Segunda Ordem}
 
-Para facilitar a compreensão do funcionamento do projeto proposto, especialmente por não ser da área de engenharia, este exemplo foi preparado utilizando o Simulink, ferramenta gráfica do MATLAB.
+Para facilitar a compreensão do funcionamento do projeto proposto, este exemplo foi preparado utilizando o Simulink, ferramenta gráfica do MATLAB.
 
 O sistema modelado representa um \textbf{sistema massa-mola-amortecedor}, um dos exemplos mais clássicos de sistemas de segunda ordem na engenharia.
 
@@ -134,19 +135,16 @@ Este exemplo tem o objetivo de ilustrar exatamente o que o aplicativo mobile \te
 Abaixo, o diagrama gerado no Simulink pode ser usado como referência visual para o protótipo funcional:
 
 \vspace{0.5cm}
-\textit{(print)}
+\includegraphics[width=0.7\linewidth]{01.png}
 \vspace{0.5cm}
 
 \textbf{Nota:} Esta montagem foi feita automaticamente via código MATLAB, o que demonstra que é possível reproduzir o processo computacionalmente — princípio que será utilizado na criação do app.
 
-\section*{Evoluções Futuras}
+Interface MATLAB/Simulink (código, diagrama de blocos e o gráfico simulado):
 
-\begin{itemize}
-    \item Suporte a múltiplos tipos de entradas (impulso, rampa).
-    \item Armazenamento e reuso de diagramas.
-    \item Simulação de sistemas não lineares.
-    \item Exportação de simulações.
-    \item Compartilhamento de blocos personalizados.
-\end{itemize}
+\vspace{0.5cm}
+\centering
+\includegraphics[width=1.0\linewidth]{02.png}
+\vspace{0.5cm}
 
 \end{document}
