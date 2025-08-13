@@ -1,6 +1,8 @@
-# SimuBlock – Simulador Mobile de Sistemas por Blocos
+<h1 align="center">SimuBlock<p></h1>
 
-### Uma plataforma didática para simulação de sistemas SISO lineares contínuos diretamente no seu dispositivo móvel.
+<div align="center">
+  <strong>Simulador Mobile de Sistemas por Blocos:<p>Uma plataforma didática para simulação de sistemas SISO lineares contínuos diretamente no seu dispositivo móvel.<p></strong><br> 
+</div>
 
 ---
 
