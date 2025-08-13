@@ -40,6 +40,8 @@ O projeto é voltado principalmente para aplicações **didáticas**, servindo c
 * **Simulação:** Python com `scipy.integrate` e `matplotlib`.
 * **Visualização:** Plotly, Chart.js ou Matplotlib.
 
+[![Tecnologias](https://skillicons.dev/icons?i=flutter,python,flask,scipy,matplotlib,plotly,chartjs)](https://skillicons.dev)
+
 ## Exemplo de Sistema Modelado
 
 Sistema massa-mola-amortecedor de **2ª ordem**:
