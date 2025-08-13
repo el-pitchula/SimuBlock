@@ -4,7 +4,7 @@
   <strong>Simulador Mobile de Sistemas por Blocos:<p>Uma plataforma didática para simulação de sistemas SISO lineares contínuos diretamente no seu dispositivo móvel.<p></strong><br> 
 </div>
 
-## Visão Geral
+## Overview
 
 O **SimuBlock** é um aplicativo mobile pensado para estudantes, professores e profissionais que desejam simular **sistemas dinâmicos** de forma prática, acessível e visual. Inspirado na lógica de montagem do **Simulink**, mas otimizado para **uso em dispositivos móveis**, o app permite criar diagramas de blocos interconectados e visualizar a resposta do sistema a uma entrada do tipo **degrau**.
 
