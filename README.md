@@ -10,16 +10,12 @@ O **SimuBlock** é um aplicativo mobile pensado para estudantes, professores e p
 
 O projeto é voltado principalmente para aplicações **didáticas**, servindo como um recurso portátil para disciplinas como **modelagem e controle de sistemas, automação, robótica, mecatrônica e engenharia elétrica**.
 
----
-
 ## Objetivos
 
 * Criar uma ferramenta simples e funcional para simulação de sistemas de **1ª e 2ª ordem**.
 * Permitir montagem de diagramas de blocos com **componentes básicos** (ganho, integrador, somador, entrada e saída).
 * Simular e plotar a resposta ao degrau usando métodos numéricos.
 * Fornecer uma alternativa ao **Simulink** para situações onde o acesso a um PC não é viável.
-
----
 
 ## 🛠 Funcionalidades
 
@@ -37,16 +33,12 @@ O projeto é voltado principalmente para aplicações **didáticas**, servindo c
 * Parametrização dinâmica dos blocos.
 * Geração de gráficos no estilo **Scope**.
 
----
-
 ## 🧩 Tecnologias Utilizadas
 
 * **Frontend:** Flutter ou WebApp (responsivo).
 * **Backend:** Flask (API para processamento das simulações).
 * **Simulação:** Python com `scipy.integrate` e `matplotlib`.
 * **Visualização:** Plotly, Chart.js ou Matplotlib.
-
----
 
 ## Exemplo de Sistema Modelado
 
@@ -68,16 +60,12 @@ Diagrama de blocos e resposta simulada (referência Simulink):
 
 ![Diagrama Simulink](BD/01.png)
 
----
-
 ## Próximos Passos
 
 * Adicionar suporte para entradas personalizadas.
 * Implementar persistência local de projetos.
 * Exportar e importar diagramas.
 * Versão desktop (PWA).
-
----
 
 ## 📜 Licença
 
