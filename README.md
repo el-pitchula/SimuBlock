@@ -17,6 +17,15 @@ O projeto é voltado principalmente para aplicações **didáticas**, servindo c
 * Simular e plotar a resposta ao degrau usando métodos numéricos.
 * Fornecer uma alternativa ao **Simulink** para situações onde o acesso a um PC não é viável.
 
+## 🧩 Tecnologias Utilizadas
+
+* **Frontend:** Flutter ou WebApp (responsivo).
+* **Backend:** Flask (API para processamento das simulações).
+* **Simulação:** Python com `scipy.integrate` e `matplotlib`.
+* **Visualização:** Plotly, Chart.js ou Matplotlib.
+
+[![Tecnologias](https://skillicons.dev/icons?i=flutter,python,flask,scipy,matplotlib,plotly,chartjs)](https://skillicons.dev)
+
 ## 🛠 Funcionalidades
 
 * Interface simples para seleção e interligação de blocos.
@@ -32,15 +41,6 @@ O projeto é voltado principalmente para aplicações **didáticas**, servindo c
   ```
 * Parametrização dinâmica dos blocos.
 * Geração de gráficos no estilo **Scope**.
-
-## 🧩 Tecnologias Utilizadas
-
-* **Frontend:** Flutter ou WebApp (responsivo).
-* **Backend:** Flask (API para processamento das simulações).
-* **Simulação:** Python com `scipy.integrate` e `matplotlib`.
-* **Visualização:** Plotly, Chart.js ou Matplotlib.
-
-[![Tecnologias](https://skillicons.dev/icons?i=flutter,python,flask,scipy,matplotlib,plotly,chartjs)](https://skillicons.dev)
 
 ## Exemplo de Sistema Modelado
 
