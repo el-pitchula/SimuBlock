@@ -4,7 +4,7 @@
   <strong>Simulador Mobile de Sistemas por Blocos:<p>Uma plataforma didática para simulação de sistemas SISO lineares contínuos diretamente no seu dispositivo móvel.<p></strong><br> 
 </div>
 
----
+===
 
 ## Visão Geral
 
