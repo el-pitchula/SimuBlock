@@ -1,4 +1,4 @@
-package com.example.simublock.blocks
+package com.el_pitchula.simublock.blocks
 
 class Sum(id: String, private val signs: List<Int>) : Block(id) {
     override fun evaluate(dt: Double) {

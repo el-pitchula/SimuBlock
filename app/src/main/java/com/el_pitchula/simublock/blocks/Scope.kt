@@ -1,4 +1,4 @@
-package com.example.simublock.blocks
+package com.el_pitchula.simublock.blocks
 
 class Scope(id: String) : Block(id) {
     val timeSeries: MutableList<Pair<Double, Double>> = mutableListOf()

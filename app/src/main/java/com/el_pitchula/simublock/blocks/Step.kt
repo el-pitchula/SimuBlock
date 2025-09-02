@@ -1,4 +1,4 @@
-package com.example.simublock.blocks
+package com.el_pitchula.simublock.blocks
 
 class Step(id: String, private val amplitude: Double = 1.0) : Block(id) {
     private var t = 0.0

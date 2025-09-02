@@ -1,4 +1,4 @@
-package com.example.simublock.core
+package com.el_pitchula.simublock.blocks
 
 enum class SolverType { EULER, RK4 }
 

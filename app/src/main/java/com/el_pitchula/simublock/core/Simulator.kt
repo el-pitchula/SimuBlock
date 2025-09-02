@@ -1,4 +1,4 @@
-package com.example.simublock.core
+package com.el_pitchula.simublock.blocks
 
 import com.example.simublock.blocks.Block
 
