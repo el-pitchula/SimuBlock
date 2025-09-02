@@ -1,4 +1,4 @@
-package com.example.simublock.ui
+package com.el_pitchula.simublock.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
