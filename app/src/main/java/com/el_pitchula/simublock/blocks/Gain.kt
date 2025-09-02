@@ -1,4 +1,4 @@
-package com.example.simublock.blocks
+package com.el_pitchula.simublock.blocks
 
 class Gain(id: String, private val k: Double) : Block(id) {
     override fun evaluate(dt: Double) {

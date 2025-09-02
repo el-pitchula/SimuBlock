@@ -1,4 +1,4 @@
-package com.example.simublock.blocks
+package com.el_pitchula.simublock.blocks
 
 class Integrator(id: String, private var state: Double = 0.0) : Block(id) {
     override fun evaluate(dt: Double) {

@@ -1,4 +1,4 @@
-package com.example.simublock.blocks
+package com.el_pitchula.simublock.blocks
 
 abstract class Block(val id: String) {
     val inputs: MutableMap<String, Double> = mutableMapOf()
