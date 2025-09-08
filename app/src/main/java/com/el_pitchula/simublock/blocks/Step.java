@@ -1,10 +1,18 @@
-package com.el_pitchula.simublock.blocks
+package com.el_pitchula.simublock.blocks;
 
-class Step(id: String, private val amplitude: Double = 1.0) : Block(id) {
-    private var t = 0.0
+public class Step extends Block {
+    private final double amplitude;
+    private double t = 0.0;
 
-    override fun evaluate(dt: Double) {
-        t += dt
-        outputs["out1"] = if (t >= 0.0) amplitude else 0.0
+    public Step(String id, double amplitude) {
+        super(id);
+        this.amplitude = amplitude;
+        outputs.put("out1", 0.0);
+    }
+
+    @Override
+    public void evaluate(double dt) {
+        t += dt;
+        outputs.put("out1", t >= 0.0 ? amplitude : 0.0);
     }
 }

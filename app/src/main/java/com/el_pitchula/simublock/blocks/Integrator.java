@@ -1,9 +1,25 @@
-package com.el_pitchula.simublock.blocks
+package com.el_pitchula.simublock.blocks;
 
-class Integrator(id: String, private var state: Double = 0.0) : Block(id) {
-    override fun evaluate(dt: Double) {
-        val u = inputs["in1"] ?: 0.0
-        state += u * dt
-        outputs["out1"] = state
+public class Integrator extends Block {
+    private double state;
+
+    public Integrator(String id) {
+        this(id, 0.0);
     }
+
+    public Integrator(String id, double initial) {
+        super(id);
+        this.state = initial;
+        outputs.put("out1", state);
+        inputs.put("in1", 0.0);
+    }
+
+    @Override
+    public void evaluate(double dt) {
+        double u = inputs.getOrDefault("in1", 0.0);
+        state += u * dt;                 // integração simples (Euler)
+        outputs.put("out1", state);
+    }
+
+    public double getState() { return state; }
 }

@@ -1,8 +1,17 @@
-package com.el_pitchula.simublock.blocks
+package com.el_pitchula.simublock.blocks;
 
-abstract class Block(val id: String) {
-    val inputs: MutableMap<String, Double> = mutableMapOf()
-    val outputs: MutableMap<String, Double> = mutableMapOf()
+import java.util.LinkedHashMap;
+import java.util.Map;
 
-    abstract fun evaluate(dt: Double)
+public abstract class Block {
+    public final String id;
+    // LinkedHashMap preserva ordem de inserção (útil no Sum)
+    public final Map<String, Double> inputs = new LinkedHashMap<>();
+    public final Map<String, Double> outputs = new LinkedHashMap<>();
+
+    public Block(String id) {
+        this.id = id;
+    }
+
+    public abstract void evaluate(double dt);
 }

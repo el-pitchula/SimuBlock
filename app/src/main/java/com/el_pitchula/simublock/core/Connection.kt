@@ -1,6 +1,6 @@
 package com.el_pitchula.simublock.core
 
-import com.example.simublock.blocks.Block
+import com.el_pitchula.simublock.blocks.Block
 
 data class Connection(
     val fromBlock: Block,

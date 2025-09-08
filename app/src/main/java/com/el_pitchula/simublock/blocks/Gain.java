@@ -1,8 +1,18 @@
-package com.el_pitchula.simublock.blocks
+package com.el_pitchula.simublock.blocks;
 
-class Gain(id: String, private val k: Double) : Block(id) {
-    override fun evaluate(dt: Double) {
-        val x = inputs["in1"] ?: 0.0
-        outputs["out1"] = k * x
+public class Gain extends Block {
+    private final double k;
+
+    public Gain(String id, double k) {
+        super(id);
+        this.k = k;
+        outputs.put("out1", 0.0);
+        inputs.put("in1", 0.0);
+    }
+
+    @Override
+    public void evaluate(double dt) {
+        double x = inputs.getOrDefault("in1", 0.0);
+        outputs.put("out1", k * x);
     }
 }
