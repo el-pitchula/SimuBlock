@@ -68,6 +68,7 @@ Diagrama de blocos e resposta simulada (referência Simulink):
 * Implementar persistência local de projetos.
 * Exportar e importar diagramas.
 * Versão desktop (PWA).
+* Atualizações de uso.
 
 ## 📜 Licença
 
