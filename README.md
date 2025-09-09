@@ -17,7 +17,7 @@ O projeto é voltado principalmente para aplicações **didáticas**, servindo c
 * Simular e plotar a resposta ao degrau usando métodos numéricos.
 * Fornecer uma alternativa ao **Simulink** para situações onde o acesso a um PC não é viável.
 
-## 🧩 Tecnologias Utilizadas
+## 🧩 Tecnologias Utilizadas (ATUALIZAR)
 
 * **Frontend:** Flutter ou WebApp (responsivo).
 * **Backend:** Flask (API para processamento das simulações).
