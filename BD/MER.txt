@@ -1,0 +1,53 @@
+@startuml
+hide circle
+skinparam entityStyle rectangle
+skinparam entityBorderColor Black
+skinparam entityBackgroundColor #FAFAFA
+skinparam linetype ortho
+skinparam shadowing false
+title MER FÍSICO – SIMUBLOCK
+
+entity "USUARIO" as USUARIO {
+  + ID_USUARIO : NUMBER <<PK>>
+  NOME : VARCHAR2(100)
+  EMAIL : VARCHAR2(100)
+  SENHA : VARCHAR2(100)
+}
+
+entity "PROJETO" as PROJETO {
+  + ID_PROJETO : NUMBER <<PK>>
+  NOME : VARCHAR2(100)
+  DESCRICAO : VARCHAR2(255)
+  DATA_CRIACAO : DATE
+  ID_USUARIO : NUMBER <<FK>>
+}
+
+entity "BLOCO" as BLOCO {
+  + ID_BLOCO : NUMBER <<PK>>
+  TIPO : VARCHAR2(50)
+  PARAMETROS : VARCHAR2(255)
+  POSICAO_X : FLOAT
+  POSICAO_Y : FLOAT
+  ID_PROJETO : NUMBER <<FK>>
+}
+
+entity "CONEXAO" as CONEXAO {
+  + ID_CONEXAO : NUMBER <<PK>>
+  ID_ORIGEM : NUMBER <<FK>>
+  PORTA_ORIGEM : VARCHAR2(50)
+  ID_DESTINO : NUMBER <<FK>>
+  PORTA_DESTINO : VARCHAR2(50)
+}
+
+entity "RESULTADO" as RESULTADO {
+  + ID_RESULTADO : NUMBER <<PK>>
+  ID_PROJETO : NUMBER <<FK>>
+  TEMPO : FLOAT
+  VALOR : FLOAT
+}
+
+USUARIO ||--o{ PROJETO : "cria"
+PROJETO ||--o{ BLOCO : "possui"
+BLOCO ||--o{ CONEXAO : "liga"
+PROJETO ||--o{ RESULTADO : "gera"
+@enduml
